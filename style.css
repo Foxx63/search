@@ -1,4 +1,4 @@
-a:link {
+.paq:link {
     color:#18181a;
 }
 
@@ -9,6 +9,8 @@ body {
 
 #form {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
@@ -21,7 +23,7 @@ body {
    
 }
 
-#foo {
+#foo{
    
     border-radius: 15px;
     border-width: 0.1px;
@@ -42,6 +44,16 @@ body {
     box-shadow: 5px 5px 5px lightblue
  }
 
+ .bar {
+    display:flex;
+    width:100px;
+    margin:auto;
+    justify-items: center;
+    margin-right: 2px;
+    border-radius: 5px;
+    margin-bottom: 5px; 
+ }
+
 
 
 .nav {
@@ -57,15 +69,153 @@ body {
 }
 
 #tix {
-    padding-right: 80px;
+    padding-right: 0px;
     text-align: center;
 }
 
 .lucky {
     background-color:#eff2ca65;
-    border: none
+    border: none;
+    align-items: center ;
+    
 }
 
 #space {
     height: 10em;
+}
+
+.goat{
+    margin-bottom: 20px;
+    margin-left:30px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: arial,sans-serif;
+    color: rgb(51,51,51);
+    font-style: normal;
+}
+
+
+.head {
+    margin-bottom: 20px;
+    margin-left:30px;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+    font-weight: 400;
+}
+
+#text, #field, #comment {
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.label {
+    margin-bottom: 20px;
+    margin-left:30px;
+    display:inline-block ;
+    white-space: nowrap;
+    width: 200px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(34,34,34);
+    line-height: 20px;
+    vertical-align: baseline;
+    font-family: Arial, sans-serif;
+}
+
+.input {
+    margin-bottom: 20px;
+    margin-left:20px;
+    min-width: 300px;
+    width: 400px;
+    white-space: nowrap;
+     
+}
+
+.alt {
+    margin-bottom: 20px;
+    margin-left:30px;
+    min-width: 300px;
+    font-size: 11px;
+    font-family:  arial,sans-serif;
+    font-weight: 400;
+    vertical-align: baseline;
+    color: #555;
+}
+
+.labelr{
+    margin-left:30px;
+    display:inline-block ;
+    white-space: nowrap;
+    width: 200px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(34,34,34);
+    line-height: 20px;
+    vertical-align: baseline;
+    font-family: Arial, sans-serif;
+    
+}
+
+.labelr:link {
+    text-decoration: none;
+    color: rgb(17,34,204);
+}
+
+.labelr:visited {
+    color: rgb(17, 34, 204);  
+}
+
+.labelr:hover {
+    text-decoration:underline;
+
+}
+
+#span {
+    display: block;
+}
+
+.nig {
+    margin-left:30px;
+    font-size: 15px;
+    color: #70757a;
+    font-weight: 400;
+}
+
+.nix{
+    margin-left:30px;
+}
+
+.egg {
+    margin-right: 27px;
+    font-size: 14px; 
+    color: #70757a;
+    font-weight: 400;
+}
+
+#adv {
+    color: rgb(255, 255, 255);
+    background-color: rgb(74, 144, 254);
+    display: flex;
+    justify-content: right;
+    border: none;
+    margin-left: 280px;
+}
+
+.tan{
+    border-radius: 2px;
+    background-color: #f5f5f5;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    border: 1px solid #dcdcdc;
+    color: #444;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 27px;
+    list-style: none;
+
 }
