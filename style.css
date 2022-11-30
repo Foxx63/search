@@ -49,13 +49,12 @@ body {
     width:100px;
     margin:auto;
     justify-items: center;
-    margin-right: 2px;
     border-radius: 5px;
     margin-bottom: 5px; 
  }
 
 
-
+ 
 .nav {
     list-style-type:none;
     display:flex ;
@@ -71,14 +70,25 @@ body {
 #tix {
     padding-right: 0px;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 20px;
+
 }
 
 .lucky {
     background-color:#eff2ca65;
     border: none;
-    align-items: center ;
     
 }
+
+.lucky:hover {
+    border: #444;
+    border-style: ridge;
+    border-width: 1px;
+    background-color: rgb(238, 237, 234);
+  }
 
 #space {
     height: 10em;
@@ -226,4 +236,11 @@ body {
     flex-direction: row;
 
 }
- 
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover{
+ text-decoration: underline;
+}
